@@ -1,0 +1,13 @@
+
+---
+- name: Configure Linux web server
+  hosts: webservers
+  become: true
+
+  roles:
+    - common
+    - python
+    - php
+    - mysql
+    - nginx
+

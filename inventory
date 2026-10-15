@@ -1,0 +1,6 @@
+
+#[webservers]
+#ansible-host ansible_host=192.168.1.50 ansible_user=server1
+
+[webservers]
+localhost ansible_connection=local

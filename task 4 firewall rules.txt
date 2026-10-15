@@ -1,0 +1,12 @@
+root@Ubuntu-server:/home/server1/Desktop# sudo ufw status numbered
+Status: active
+
+     To                         Action      From
+     --                         ------      ----                                   
+[ 1] 80/tcp                     ALLOW IN    Anywhere                  
+[ 2] 443/tcp                    ALLOW IN    Anywhere                  
+[ 3] 3306/tcp                   DENY IN     Anywhere                  
+[ 4] 22/tcp                     ALLOW IN    192.168.1.50                          
+[ 5] 80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 6] 443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+[ 7] 3306/tcp (v6)              DENY IN     Anywhere (v6)  

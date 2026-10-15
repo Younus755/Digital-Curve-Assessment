@@ -1,0 +1,12 @@
+
+---
+python_package: python3
+php_packages:
+  - php
+  - php-fpm
+  - php-mysql
+mysql_package: mysql-server
+nginx_package: nginx
+web_root: /var/www/html
+server_name: localhost
+nginx_port: 80
